@@ -1,0 +1,322 @@
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="description" content="Furnitures">
+    <meta name="author" content="Vy Phan">
+    <title>Simple living</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="assets/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style-all.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/material-icons.css">
+</head>
+<body>
+
+  <div class="sidenavSL" id="sidenavSL">
+    <div class="head">
+      <div class="row">
+        <div class="col-9">
+          <div class="left">
+            <a href="index.html"> Simple Living </a>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="right">
+            <i class="material-icons md-24" onclick="closeSidenavSL()">close</i>
+          </div>
+        </div>
+        <div class="col-12">
+          <div class="searchSidenav">
+            <div class="input-group">
+              <input type="text" class="form-control" id="search" placeholder="Type something...">
+              <div class="input-group-prepend">
+                <span class="input-group-text"><i class="material-icons">search</i></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a href="product.html">Product</a>
+    <a href="inspiration.html">Inspiration</a>
+    <a href="#">Sale</a>
+    <a href="#">My Room</a>
+    <a href="shopping-cart.html">Market</a>
+    <a href="my-account.html">Log in</a>
+  </div>
+
+  <div class="search" id="searchSL">
+    <div class="container">
+      <div class="input-group">
+        <input type="text" class="form-control" id="search" placeholder="Type something...">
+        <div class="input-group-prepend">
+          <span class="input-group-text" onclick="closeNavSearch()"><i class="material-icons">close</i></span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="navbarSL">
+      <div class="row">
+        <div class="col-2 d-block d-lg-none">
+          <div class="barsSidenav">
+            <i class="fa fa-bars" onclick="openSidenavSL()"></i>
+          </div>
+        </div>
+        <div class="col-lg-3 col-7">
+          <div class="logo">
+            <a href="index.html">Simple Living</a>
+          </div>
+        </div>
+        <div class="col-lg-9 col-3">
+          <div class="menu">
+            <ul>
+              <li class="menuProduct">
+                <a href="product.html">Product</a>
+                <div class="productList">
+                  <div class="row">
+                    <div class="col-4">
+                      <ul class="menuProductList">
+                        <li><a href="product.html">All Product</a></li>
+                        <li><a href="#">Baby & Kids</a></li>
+                        <li><a href="#">Bathroom</a></li>
+                        <li><a href="#">Bedroom</a></li>
+                        <li><a href="#">Decoration</a></li>
+                        <li><a href="#">Home Improvement</a></li>
+                        <li><a href="#">Kitchens</a></li>
+                        <li class="lighting"><a href="#">Lighting  <span class="material-icons">play_arrow</span></a>
+                          <ul class="table-lamp">
+                            <li style="text-align: left"><a href="table-lamp.html">Table lamp </a></li>
+
+                          </ul>
+                        </li>
+                        <li><a href="#">Living Room</a></li>
+                        <li><a href="#">Rugs</a></li>
+                      </ul>
+                    </div>
+                    <div class="col-4">
+                      <ul class="menuProductList">
+                        <li><a href="#">Collection</a></li>
+                        <li><a href="#">Back to College</a></li>
+                        <li><a href="#">Summer</a></li>
+                        <li><a href="#">Christmas</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li><a href="inspiration.html">Inspiration</a></li>
+              <li><a href="#">Sale</a></li>
+              <li><a href="#">My Room</a></li>
+              <li><a href="#">Market</a></li>
+              <li><a href="#" onclick="openNavSearch()">Search</a></li>
+              <li><a href="#"><i class="material-icons">list</i></a></li>
+              <li><a href="shopping-cart.html"><i class="material-icons">shopping_cart</i></a></li>
+              <li><a href="my-account.html"><i class="material-icons">account_circle</i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div><!--End Navbar-->
+  <div class="container">
+    <div class="row">
+      <div style="padding-left: 20px; padding-top: 20px">
+        <a href="index.html" style="color: black"><span class="material-icons md-24">home</span></a>
+        <span class="material-icons md-24">keyboard_arrow_right</span>
+        <span><a style="color: black; text-decoration: none" href="product.html"><b>Product</b></a></span>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="bannerSL">
+      <div class="description">
+        <div class="row justify-content-end">
+          <div class="col-lg-3 col-md-5">
+            <div class="discount">
+              <div class="media">
+                <h1>30</h1>
+                <div class="media-body">
+                  <h2 class="mb-0">%<br>OFF</h2>
+                </div>
+              </div>
+              <h3>From 6/20 - 7/3*</h3>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4">
+            <div class="spBtn">
+              <button type="button" class="btn btn-dark px-5">Shop Now</button>
+            </div>
+          </div>
+        </div>
+      </div><!--End Discount-->
+      <div class="osp">
+        <small>*On select product</small>
+      </div>
+    </div>
+  </div><!--End Banner-->
+
+  <div class="container">
+    <div class="containCollection">
+      <div class="titleDefault">
+        <h5>Collection</h5>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="item">
+            <a href><img src="assets/img/\latest_collection/back_to_college_u32.png"></a>
+            <h6><a href="#">Back to school</a></h6>
+          </div>
+        </div><!--End Item-->
+        <div class="col-md-4">
+          <div class="item">
+            <a href><img src="assets/img/\latest_collection/summer_u33.png"></a>
+            <h6><a href="#">Summer</a></h6>
+          </div>
+        </div><!--End Item-->
+        <div class="col-md-4">
+          <div class="item">
+            <a href><img src="assets/img/\latest_collection/christmas_u34.png"></a>
+            <h6><a href="#">Christmas</a></h6>
+          </div>
+        </div><!--End Item-->
+      </div>
+    </div>
+  </div><!--End Collection-->
+
+  <div class="container">
+    <div class="containCollection">
+      <div class="titleDefault">
+        <h5>Products</h5>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="item">
+            <a href><img style="width: 275px; height: 275px" src="assets/img/products/product1.png"></a>
+            <h6><a href="#">Baby & Kids</a></h6>
+          </div>
+        </div><!--End Item-->
+        <div class="col-md-4">
+          <div class="item">
+            <a href><img style="width: 275px; height: 275px" src="assets/img/products/product2.png"></a>
+            <h6><a href="#">Bathroom</a></h6>
+          </div>
+        </div><!--End Item-->
+        <div class="col-md-4">
+          <div class="item">
+            <a href><img style="width: 275px; height: 275px" src="assets/img/products/product3.png"></a>
+            <h6><a href="#">Bedroom</a></h6>
+          </div>
+        </div><!--End Item-->
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="containCollection">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="item">
+            <a href><img style="width: 275px; height: 275px" src="assets/img/products/product4.png"></a>
+            <h6><a href="#">Decoration</a></h6>
+          </div>
+        </div><!--End Item-->
+        <div class="col-md-4">
+          <div class="item">
+            <a href><img style="width: 275px; height: 275px" src="assets/img/products/product5.png"></a>
+            <h6><a href="#">Home Improvement</a></h6>
+          </div>
+        </div><!--End Item-->
+        <div class="col-md-4">
+          <div class="item">
+            <a href><img style="width: 275px; height: 275px" src="assets/img/products/product6.png"></a>
+            <h6><a href="#">Kitchens</a></h6>
+          </div>
+        </div><!--End Item-->
+      </div>
+    </div>
+  </div><!--End Collection-->
+
+  <div class="container">
+    <div class="containCollection">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="item">
+            <a href><img style="width: 275px; height: 275px" src="assets/img/products/product7.png"></a>
+            <h6><a href="#">Lighting</a></h6>
+          </div>
+        </div><!--End Item-->
+        <div class="col-md-4">
+          <div class="item">
+            <a href><img style="width: 275px; height: 275px" src="assets/img/products/product8.png"></a>
+            <h6><a href="#">Living Room</a></h6>
+          </div>
+        </div><!--End Item-->
+        <div class="col-md-4">
+          <div class="item">
+            <a href><img style="width: 275px; height: 275px" src="assets/img/products/product9.png"></a>
+            <h6><a href="#">Rugs</a></h6>
+          </div>
+        </div><!--End Item-->
+      </div>
+    </div>
+  </div> <!-- End Product -->
+  
+  <div class="container">
+    <div class="footerSL">
+      <div class="row">
+        <div class="col-lg-2">
+          <div class="logo">
+            <a href="index.html">Simple Living</a>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="menu">
+            <div class="row">
+              <div class="col">
+                <ul class="list-unstyled">
+                  <li>Menu</li>
+                  <li><a href="product.html">Product</a></li>
+                  <li><a href="inspiration.html">Inspiration</a></li>
+                  <li><a href="#">Sale</a></li>
+                  <li><a href="#">My Room</a></li>
+                  <li><a href="#">Market</a></li>
+                </ul>
+              </div>
+              <div class="col">
+                <ul class="list-unstyled">
+                  <li>About</li>
+                  <li><a href="#">FAQ</a></li>
+                  <li><a href="#">Contact Us</a></li>
+                  <li><a href="#">Return Policy</a></li>
+                  <li><a href="#">Terms & Conditions</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-5">
+          <div class="share">
+            <dl class="row">
+              <dt class="col-sm-7">Follow Us on Social Media</dt>
+              <dd class="col-sm-5">
+                <ul class="socmed">
+                  <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                  <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                  <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                </ul>
+              </dd>
+            </dl>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="assets/js/jquery-3.3.1.min.js"></script>
+  <script src="assets/js/jsdefault.js"></script>
+  <script src="assets/js/popper.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+</body>
+</html>

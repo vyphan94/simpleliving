@@ -1,0 +1,123 @@
+.paragraph{
+    font-size: 11;
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.border{
+    font-size: 15;
+    font-family: 'Avenir-Book', 'Avenir Book', 'Avenir';
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    width: 113px;
+    border: 2px;
+    border-color: black;
+    border-radius: 10px;
+    padding: 5px 5px 5px 5px;
+    margin: 5px;
+}
+
+.row-border{
+    width: 90%;;
+}
+
+.center{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.outer{
+    width: 100%;
+    text-align: center;
+}
+  
+.inner {
+    display: inline-block;
+}
+
+.text-under-image{
+    font-family: 'Avenir-Heavy', 'Avenir Heavy', 'Avenir Book', 'Avenir';
+    font-weight: 800;
+    font-style: normal;
+    font-size: 16px;
+    margin: 0;
+}
+
+.text-date{
+    font-family: 'Avenir-Heavy', 'Avenir Heavy', 'Avenir Book', 'Avenir';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    margin: 0;
+}
+
+.text-description{
+    font-family: 'Avenir-Book', 'Avenir Book', 'Avenir';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    margin: 0;
+}
+
+.text-under-image:hover{
+    text-decoration: underline;
+}
+
+#button-load-post{
+    font-family: 'Arial-BoldMT', 'Arial Bold', 'Arial';
+    font-weight: 700;
+    font-style: normal;
+    font-size: 18px;
+    left: 0px;
+    top: 0px;
+    width: 233px;
+    height: 68px;
+    margin-top: 30px;
+}
+
+#button-load-post:hover{
+    background-color: blueviolet;
+}
+
+.text-lamp {
+    font-size: 18px;
+    font-weight: 600;
+    /* margin: 0; */
+}
+.text-lamp-price{
+    text-decoration: line-through;
+    font-size: 15px;
+    /* margin: 0; */
+}
+.text-lamp-sale{
+    color: red;
+    font-size: 15px;
+    margin: 0;
+}
+.text-lamp-description{
+    font-size: 13px;
+}
+
+.text-under-browser {
+    font-size: 12px;
+    margin: 0;
+}
+.text-price{
+    text-decoration: line-through;
+    font-size: 12px;
+    margin: 0;
+}
+.text-sale{
+    color: red;
+    font-size: 12px;
+    margin: 0;
+}
+
+#addToList:hover{
+    background-color: lightgrey !important;
+}
+#addToCart:hover{
+    background-color: black;
+}

@@ -1,0 +1,269 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="description" content="Furnitures">
+    <meta name="author" content="Vy Phan">
+    <title>Simple living</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="assets/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style-all.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/material-icons.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/my-css.css">
+</head>
+
+<body>
+
+    <div class="sidenavSL" id="sidenavSL">
+        <div class="head">
+            <div class="row">
+                <div class="col-9">
+                    <div class="left">
+                        <a href="index.html"> Simple Living </a>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="right">
+                        <i class="material-icons md-24" onclick="closeSidenavSL()">close</i>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="searchSidenav">
+                        <div class="input-group">
+                            <input type="text" class="form-control" id="search" placeholder="Type something...">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text"><i class="material-icons">search</i></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="product.html">Product</a>
+        <a href="inspiration.html">Inspiration</a>
+        <a href="#">Sale</a>
+        <a href="#">My Room</a>
+        <a href="#">Market</a>
+        <a href="my-account.html">Log in</a>
+    </div>
+
+    <div class="search" id="searchSL">
+        <div class="container">
+            <div class="input-group">
+                <input type="text" class="form-control" id="search" placeholder="Type something...">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" onclick="closeNavSearch()"><i class="material-icons">close</i></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="navbarSL">
+            <div class="row">
+                <div class="col-2 d-block d-lg-none">
+                    <div class="barsSidenav">
+                        <i class="fa fa-bars" onclick="openSidenavSL()"></i>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-7">
+                    <div class="logo">
+                        <a href="index.html">Simple Living</a>
+                    </div>
+                </div>
+                <div class="col-lg-9 col-3">
+                    <div class="menu">
+                        <ul>
+                            <li class="menuProduct">
+                                <a href="product.html">Product</a>
+                                <div class="productList">
+                                    <div class="row">
+                                        <div class="col-4">
+                                            <ul class="menuProductList">
+                                                <li><a href="product.html">All Product</a></li>
+                                                <li><a href="#">Baby & Kids</a></li>
+                                                <li><a href="#">Bathroom</a></li>
+                                                <li><a href="#">Bedroom</a></li>
+                                                <li><a href="#">Decoration</a></li>
+                                                <li><a href="#">Home Improvement</a></li>
+                                                <li><a href="#">Kitchens</a></li>
+                                                <li class="lighting"><a href="#">Lighting  <span class="material-icons">play_arrow</span></a>
+                                                    <ul class="table-lamp">
+                                                        <li style="text-align: left"><a href="table-lamp.html">Table lamp </a></li>
+
+                                                    </ul>
+                                                </li>
+                                                <li><a href="#">Living Room</a></li>
+                                                <li><a href="#">Rugs</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-4">
+                                            <ul class="menuProductList">
+                                                <li><a href="#">Collection</a></li>
+                                                <li><a href="#">Back to College</a></li>
+                                                <li><a href="#">Summer</a></li>
+                                                <li><a href="#">Christmas</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li><a href="inspiration.html">Inspiration</a></li>
+                            <li><a href="#">Sale</a></li>
+                            <li><a href="#">My Room</a></li>
+                            <li><a href="#">Market</a></li>
+                            <li><a href="#" onclick="openNavSearch()">Search</a></li>
+                            <li><a href="#"><i class="material-icons">list</i></a></li>
+                            <li><a href="shopping-cart.html"><i class="material-icons">shopping_cart</i></a></li>
+                            <li><a href="my-account.html"><i class="material-icons">account_circle</i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--End Navbar-->
+    <div class="container">
+        <div class="row">
+            <div style="padding-left: 20px; padding-top: 20px; padding-bottom: 20px">
+                <a href="index.html" style="color: black"><span class="material-icons md-24">home</span></a>
+                <span class="material-icons md-24">keyboard_arrow_right</span>
+                <span><a style="color: black; text-decoration: none" href="product.html"><b>Product</b></a></span>
+                <span class="material-icons md-24">keyboard_arrow_right</span>
+                <span><a style="color: black; text-decoration: none" href="#"><b>Lighting</b></a></span>
+                <span class="material-icons md-24">keyboard_arrow_right</span>
+                <span><a style="color: black; text-decoration: none" href="table-lamp.html"><b>Table Lamp</b></a></span>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4">
+                <img src="assets/img/table lamp/alllamp.PNG" style="width: 100%"></img>
+            </div>
+            <div class="col-lg-8">
+                    <p class="text-lamp">Table Lamp</p>
+                    <p class="text-lamp-price">$19</p>
+                    <p class="text-lamp-sale">$5</p>
+                    <p class="text-lamp-description">- 15.5"w x 6.5"d x 18.5"h. <br>
+                    
+                        - Steel + aluminum body.<br>
+                    
+                        - Acrylic shade in a Milk finish.<br>
+                    
+                        - Shade tilts and pivots.<br>
+                    
+                        - Integrated LED design; average lifespan of 25,000 hours.<br>
+                    
+                        - LED lights are fully built into the fixture and cannot be replaced.<br>
+                    
+                        - Dimmable.<br>
+                    
+                        - Built-in USB port at base.<br>
+                    
+                        - Clear PVC cord.<br>
+                    
+                        - Plug-in.<br>
+                    
+                        - Imported.<br>
+                    
+                        - Make the switch to energy-efficient LED lighting.</p>
+                                <button id="addToList" class="btn btn-primary btn-lg" style="width: 49%;height:60px;margin:0;margin-top: 5px;background-color: white;color: grey;font-size: 20;font-weight: 600" >Add to list</button>
+                                <button id="addToCart"  class="btn btn-secondary btn-lg" style="width:49%; height:60px;margin:0;margin-top: 5px;font-size: 20;font-weight: 600">Add to cart</button>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="container">
+            <p style="margin-top: 50px">People also browsed</p>
+            <div class="row">
+                <div class="col-md-3">
+                    <img src="assets/img/table lamp/browser1.png" style="width: 100%"></img>
+                    <p class="text-under-browser"> Lorem ipsum dolor </p>
+                    <p class="text-price">$19 </p>
+                    <p class="text-sale">Sale $5 </p>
+                
+                </div>
+                <div class="col-md-3">
+                    <img src="assets/img/table lamp/browser2.png" style="width: 100%"></img>
+                    <p class="text-under-browser"> Lorem ipsum dolor </p>
+                    <p class="text-price">$19 </p>
+                    <p class="text-sale">Sale $5 </p>
+                </div>
+                <div class="col-md-3">
+                    <img src="assets/img/table lamp/browser3.png" style="width: 100%"></img>
+                    <p class="text-under-browser"> Lorem ipsum dolor </p>
+                    <p class="text-price">$19 </p>
+                    <p class="text-sale">Sale $5 </p>
+                </div>
+                <div class="col-md-3">
+                    <img src="assets/img/table lamp/browser4.png" style="width: 100%"></img>
+                    <p class="text-under-browser"> Lorem ipsum dolor </p>
+                    <p class="text-price">$19 </p>
+                    <p class="text-sale">Sale $5 </p>
+                </div>
+            </div>
+        </div>
+
+    <div class="container">
+        <div class="footerSL">
+            <div class="row">
+                <div class="col-lg-2">
+                    <div class="logo">
+                        <a href="index.html">Simple Living</a>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="menu">
+                        <div class="row">
+                            <div class="col">
+                                <ul class="list-unstyled">
+                                    <li>Menu</li>
+                                    <li><a href="product.html">Product</a></li>
+                                    <li><a href="inspiration.html">Inspiration</a></li>
+                                    <li><a href="#">Sale</a></li>
+                                    <li><a href="#">My Room</a></li>
+                                    <li><a href="#">Market</a></li>
+                                </ul>
+                            </div>
+                            <div class="col">
+                                <ul class="list-unstyled">
+                                    <li>About</li>
+                                    <li><a href="#">FAQ</a></li>
+                                    <li><a href="#">Contact Us</a></li>
+                                    <li><a href="#">Return Policy</a></li>
+                                    <li><a href="#">Terms & Conditions</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <div class="share">
+                        <dl class="row">
+                            <dt class="col-sm-7">Follow Us on Social Media</dt>
+                            <dd class="col-sm-5">
+                                <ul class="socmed">
+                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                </ul>
+                            </dd>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/js/jquery-3.3.1.min.js"></script>
+    <script src="assets/js/jsdefault.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+</body>
+
+</html>
